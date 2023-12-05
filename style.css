@@ -1,0 +1,57 @@
+html, body{
+    min-height: 100vh;
+}
+body{
+    
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin-top: 40px;
+    font-weight: bold;
+}
+.container-fluid{
+    flex: 1 0 auto;
+}
+.main-box{
+    margin-top: 40px;
+    width: 420px;
+    box-shadow: 1px 1px 20px 5px #cccccc, -1px,-1px, 20px, 5px #cccccc;
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+}
+.main-box ul{
+    margin-left: 100px;
+    font-size: 100%;
+}
+.fa-heart{
+    color: red;
+}
+footer{
+    margin-top: 20px;
+    flex-shrink: 0;
+    padding: 20px 0 20px 0;
+    color: #ffffff;
+    background-color: rgba(34, 39, 39, 0.9);
+    font-size: 1.15em;
+}
+.box{
+    font-family: 'Permanent Marker', cursive;
+    background-color: #ebebeb;
+    font-size: 500%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #585858;
+}
+.controls{
+    padding: 5px;
+}
+.controls a{
+    font-size: 100% !important;
+}
+#alert-box{
+    width: 420px;
+    margin-left: 400px;
+}
